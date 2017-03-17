@@ -1,0 +1,8 @@
+siteTitle="Kevin Davis"
+baseColor = "#495057"
+linkPrefix = "/"
+docPages = [
+  "/",
+  "/portfolio/",
+  "/inspiration/",
+]
