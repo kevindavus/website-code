@@ -18,13 +18,18 @@ const {rhythm, adjustFontSizeTo} = typography
 
 module.exports = React.createClass({
   propTypes() {
-    return {children: React.PropTypes.object}
+    return {children: React.PropTypes.object,
+    route: React.PropTypes.object}
   },
+
+  contextTypes: {router: React.PropTypes.object.isRequired},
+
   handleTopicChange(e) {
     return this
       .context
       .router
       .push(e.target.value)
+      console.log(e.target.value);
   },
   render() {
     const docsActive = includes(this.props.location.pathname, '/')
@@ -83,7 +88,7 @@ module.exports = React.createClass({
                   style={{
                   textDecoration: 'none',
                   color: colors.fg,
-                  fontSize: adjustFontSizeTo('25.5px').fontSize
+                  fontSize: adjustFontSizeTo('21px').fontSize
                 }}>
                   {config.siteTitle}
                 </Link>
