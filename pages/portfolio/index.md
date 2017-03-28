@@ -16,7 +16,7 @@ Do you have trouble focusing? Need some structure in how you spend your time? Tr
 
 ### Tic Tac Toe
 
-Have some time to kill and a friend close by? Waste time with this classic (single player mode coming soon)
+Have some time to kill and a friend close by? Waste time with this classic made in react 
 <p align="center">
 <a href="http://codepen.io/osfan501/pen/mWJraP"> <img src="http://i.imgur.com/ETEh4k5.png" style="border-radius: 20px"/></a>
 </p>
